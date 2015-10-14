@@ -7,7 +7,7 @@
   <node pkg="rgbdslam" type="rgbdslam" name="rgbdslam" cwd="node" required="true" output="screen"> 
     <!-- Input data settings-->
     <param name="config/topic_image_mono"              value="/camera/rgb/image_color"/> 
-    <param name="config/topic_image_depth"             value="/camera/depth_registered/sw_registered/image_rect_raw"/>
+    <param name="config/topic_image_depth"             value="/camera/depth/image_raw"/>
 
     <!-- These are the default values of some important parameters -->
     <param name="config/feature_extractor_type"        value="ORB"/><!-- also available: SIFT, SIFTGPU, SURF, SURF128 (extended SURF), ORB. -->
